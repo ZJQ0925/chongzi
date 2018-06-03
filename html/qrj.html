@@ -10,6 +10,7 @@
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/swiper-4.2.6.min.js"></script>
     <script src="../js/base.min.js"></script>
+    <script src="../js/qrj.js"></script>
     <link rel="stylesheet" href="../css/swiper-4.2.6.min.css"/>
     <link rel="stylesheet" href="../css/qrj.css"/>
     <title></title>
@@ -22,22 +23,44 @@
 <div flex="dir:top cross:center main:center">
     <input class="haoma" type="text" placeholder="请输入福建移动号码"/>
 
-    <div flex="main:justify cross:center">
-        <div>
-            <p class="czje">
-                <img class="aixing" src="../image/1.png" alt=""/>
-                <span>13.14元</span>
-            </p>
-        </div>
-        <div>
-            <p class="czje">
-                <img class="aixing" src="../image/1.png" alt=""/>
-                <span>13.14元</span>
-            </p>
-        </div>
+    <div class="box" flex="main:justify cross:center">
+        <label flex="cross:center main:center" class="first on">
+            <img class="heart" src="../image/1.png" alt=""/>
+            13.14元
+        </label>
+        <label flex="cross:center main:center">
+           50元
+        </label>
+        <label flex="cross:center main:center">
+            100元
+        </label>
+        <label for="money" class="last" flex="cross:center main:center">
+            <span>自定义</span>
+            <input type="tel" class="money" id="money"/>
+        </label>
     </div>
 </div>
 
+<div class="box2">
+    <div class="box2-1 box2-bb first2" flex="main:justify cross:center">
+        <div flex="cross:center main:center">
+            <img class="weixing" src="../image/2.png" alt=""/>
+            <span class="wxzf">微信支付</span>
+        </div>
+            <img class="heart2" src="../image/4.png" alt=""/>
+            <div class="yuan"></div>
+        
+    </div>
+
+    <div class="box2-1 first2" flex="main:justify cross:center">
+        <div flex="cross:center main:center">
+            <img class="weixing" src="../image/3.png" alt=""/>
+            <span class="wxzf">银联支付</span>
+        </div>
+        <img class="heart2" src="../image/4.png" alt=""/>
+        <div class="yuan"></div>
+    </div>
+</div>
 
 
 
