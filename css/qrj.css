@@ -247,6 +247,29 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 
 
+
+/*输入的手机号码一致  开始*/
+
+.tmbj-3{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sjhmyz-span{
+    width: 80%;
+    font-size: .28rem;
+    color: #f7699e;
+    margin-top: .67rem;
+    margin-bottom: .61rem;
+}
+/*输入的手机号码一致  开始*/
+
+
+
+
 /*充值成功开始*/
 
 .czcg-span{

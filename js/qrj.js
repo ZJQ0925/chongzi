@@ -1,16 +1,17 @@
 
 $(function(){
 
+    //选择金额
     $('.box>label').click(function(){
         $(this).addClass('on').siblings().removeClass('on');
     });
-
+    //选择支付方式
     $(".box2>div").click(function(){
 
         $(this).addClass('on2').siblings().removeClass('on2');
     });
 
-
+    //活动规则
     $('.hdgz').click(function(){
         $('.tmbj').removeClass('tkyc');
     });
@@ -19,6 +20,7 @@ $(function(){
         $('.tmbj').addClass('tkyc');
     });
 
+    //立即支付
     $('.ljzfan').click(function(){
         $('.tmbj-2').removeClass('tkyc');
     });
