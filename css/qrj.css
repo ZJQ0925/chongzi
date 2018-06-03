@@ -136,6 +136,7 @@ img.heart2{
     box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
 }
 
+/*活动规则弹窗  开始*/
 .tmbj{
     width: 100vw;
     height: 100vh;
@@ -166,18 +167,132 @@ img.heart2{
 .tkyc{
     display: none;
 }
+.zdlan{
+    width: 100%;
+    height: .88rem;
+    border-radius: .15rem;
+    background: #fb9ac7;
+    font-size: .30rem;
+    color: white;
+    box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
+}
+/*活动规则弹窗  结束*/
 
 
 
 
+/*输入手机号码开始*/
+
+.tmbj-2{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.wbk-2{
+    width: 80vw;
+    background: white;
+    border-radius: .35rem;
+}
+.haoma2{
+    height: .85rem;
+    width: 80%;
+    border: 1px solid #f6d9e3 ;
+    border-radius: .15rem;
+    font-size: .28rem;
+    color: #f6d9e3;
+    padding-left: .16rem;
+    margin-top: .37rem;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #f6d9e3;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #f6d9e3;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #f6d9e3;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #f6d9e3;
+}
+.sjhm-span{
+    width: 80%;
+    font-size: .28rem;
+    color: #f7699e;
+    margin-top: .19rem;
+    margin-bottom: .47rem;
+}
+.anniu{
+    width: 100%;
+}
+.anniu1{
+    height: 1.2rem;
+    width: 50%;
+    font-size: .30rem;
+    color: white;
+    background: #cbcbcb;
+}
+.anniu2{
+    height: 1.2rem;
+    width: 50%;
+    font-size: .30rem;
+    color: white;
+    background: #fb9ac7;
+}
+
+/*输入手机号码结束*/
 
 
 
+/*充值成功开始*/
+
+.czcg-span{
+    height: 1.76rem;
+    width: 90vw;
+    background: #fbdce6;
+    padding: .24rem;
+    font-size: .28rem;
+    color: #d16284;
+    border-radius: .15rem;
+}
+.czcg-fasong{
+    width: 90vw;
+    height: .88rem;
+    border: 2px dashed #fb9ac7;
+    border-radius: .15rem;
+    margin-top: .65rem;
+}
+.czcg-fasong>img{
+    width: 4.82rem;
+}
+.czcg-span2{
+    font-size: .26rem;
+    color: #d16284;
+    margin-top: .58rem;
+}
+/*充值成功结束*/
 
 
+/*为爱充值  开始*/
 
+.haibao{
+    width: 7.50rem;
+    height: 4.91rem;
+}
 
+.erweima{
+    width: 7.50rem;
+    height: 5.38rem;
+}
+.mt-2{
+    margin-top: .4rem;
+    padding: 0 .2rem;
+}
 
+/*为爱充值  结束*/
 
 
 

@@ -15,12 +15,17 @@ $(function(){
         $('.tmbj').removeClass('tkyc');
     });
 
-    $('.ljzfan').click(function(){
+    $('.zdlan').click(function(){
         $('.tmbj').addClass('tkyc');
     });
 
+    $('.ljzfan').click(function(){
+        $('.tmbj-2').removeClass('tkyc');
+    });
 
-
+    $('.anniu1').click(function(){
+        $('.tmbj-2').addClass('tkyc');
+    });
 
 
 
