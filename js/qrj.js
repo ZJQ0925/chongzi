@@ -22,12 +22,19 @@ $(function(){
 
     //Á¢¼´Ö§¸¶
     $('.ljzfan').click(function(){
+
+        var haoma=$('.haoma').val();
+        var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;
+        if()
+
         $('.tmbj-2').removeClass('tkyc');
     });
 
     $('.anniu1').click(function(){
         $('.tmbj-2').addClass('tkyc');
     });
+
+
 
 
 
