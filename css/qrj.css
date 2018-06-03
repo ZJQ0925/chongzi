@@ -265,6 +265,20 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
     margin-top: .67rem;
     margin-bottom: .61rem;
 }
+.anniu1-2{
+    height: 1.2rem;
+    width: 50%;
+    font-size: .30rem;
+    color: white;
+    background: #cbcbcb;
+}
+.anniu2-2{
+    height: 1.2rem;
+    width: 50%;
+    font-size: .30rem;
+    color: white;
+    background: #fb9ac7;
+}
 /*输入的手机号码一致  开始*/
 
 

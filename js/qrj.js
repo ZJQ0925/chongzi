@@ -1,17 +1,17 @@
 
 $(function(){
 
-    //选择金额
+    //閫夋嫨閲戦
     $('.box>label').click(function(){
         $(this).addClass('on').siblings().removeClass('on');
     });
-    //选择支付方式
+    //閫夋嫨鏀粯鏂瑰紡
     $(".box2>div").click(function(){
 
         $(this).addClass('on2').siblings().removeClass('on2');
     });
 
-    //活动规则
+    //娲诲姩瑙勫垯
     $('.hdgz').click(function(){
         $('.tmbj').removeClass('tkyc');
     });
@@ -20,15 +20,48 @@ $(function(){
         $('.tmbj').addClass('tkyc');
     });
 
-    //立即支付
+    //绔嬪嵆鏀粯
     $('.ljzfan').click(function(){
 
         var haoma=$('.haoma').val();
-        var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;
-        if()
-
-        $('.tmbj-2').removeClass('tkyc');
+        var myreg=/^[1][3,4,5,6,7,8,9][0-9]{9}$/;
+        if(myreg.test(haoma)){
+            $('.tmbj-2').removeClass('tkyc');
+        }else{
+            alert('鍙风爜杈撳叆閿欒')
+        }
     });
+
+    $('.anniu2').click(function(){
+
+        var haoma=$('.haoma').val();
+        var haoma2=$('.haoma2').val();
+        var myreg=/^[1][3,4,5,6,7,8,9][0-9]{9}$/;
+        if(myreg.test(haoma2)){
+            if(haoma===haoma2){
+                $('.tmbj-3').removeClass('tkyc');
+                $('.tmbj-2').addClass('tkyc');
+            }
+            else{
+                window.location.replace("../html/wacz.html");
+            }
+        }else{
+            alert('鍙风爜杈撳叆閿欒')
+        }
+    });
+
+    $('.anniu1-2').click(function(){
+        $('.tmbj-3').addClass('tkyc');
+    });
+
+    $('.anniu2-2').click(function(){
+        window.location.replace("../html/czcg.html");
+        $(location).attr('href', '../html/czcg.html');
+    });
+
+
+
+
 
     $('.anniu1').click(function(){
         $('.tmbj-2').addClass('tkyc');
