@@ -11,7 +11,13 @@ $(function(){
     });
 
 
+    $('.hdgz').click(function(){
+        $('.tmbj').removeClass('tkyc');
+    });
 
+    $('.ljzfan').click(function(){
+        $('.tmbj').addClass('tkyc');
+    });
 
 
 

@@ -122,13 +122,50 @@ img.heart2{
 .box2>div.box2-1.first2.on2>div.yuan{
     display: none;
 }
+.ljzf{
+    padding: 0 .2rem;
+    margin-top: .52rem;
+}
+.ljzfan{
+    width: 100%;
+    height: .88rem;
+    border-radius: .15rem;
+    background: #fb9ac7;
+    font-size: .30rem;
+    color: white;
+    box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
+}
 
+.tmbj{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;
+    left: 0;
 
-
-
-
-
-
+}
+.wbk{
+    width: 80vw;
+    height: 55vh;
+    background: white;
+    padding: .47rem .50rem;
+    border-radius: .35rem;
+}
+.hdgzwz{
+    width: 5.54rem;
+}
+.hdgz-span{
+    font-size: .26rem;
+    color: #f7699e;
+    line-height: .37rem;
+}
+.mt-1{
+    margin-top: .6rem;
+}
+.tkyc{
+    display: none;
+}
 
 
 
