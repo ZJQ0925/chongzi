@@ -323,8 +323,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .erweima{
-    width: 7.50rem;
-    height: 5.38rem;
+    width: 100vw;
 }
 .mt-2{
     margin-top: .4rem;
